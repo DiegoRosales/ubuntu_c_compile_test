@@ -1,0 +1,2 @@
+all:
+	gcc -o helloworld.exe helloworld.c 

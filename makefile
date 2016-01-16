@@ -1,2 +1,5 @@
-exec: source/helloworld.c
-		gcc -o helloworld.exe source/helloworld.c
+helloworld:
+	cd ./source && \
+	make -f ./makehw all
+all:
+	$(MAKE) -C ./source all
